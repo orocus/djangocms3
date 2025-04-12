@@ -2,8 +2,8 @@
   "name": "djangocms3",
   "version": "1.0.0",
   "description": "Example Django CMS 3 site",
-  "main": "index.js",
   "scripts": {
+    "build:scss": "parcel build cmsproject/src/scss/theme.scss --dist-dir cmsproject/static/css --no-source-maps --no-content-hash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mikeh74/djangocms3#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.0.0"
   },
   "dependencies": {
