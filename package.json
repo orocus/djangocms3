@@ -1,0 +1,25 @@
+{
+  "name": "djangocms3",
+  "version": "1.0.0",
+  "description": "Example Django CMS 3 site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeh74/djangocms3.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeh74/djangocms3/issues"
+  },
+  "homepage": "https://github.com/mikeh74/djangocms3#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.0"
+  }
+}
