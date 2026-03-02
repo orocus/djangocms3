@@ -5,3 +5,7 @@ create_venv:
 # Compile requirements using pip-compile inside the virtual environment
 pip_compile: create_venv
 	. .venv/bin/activate && pip install pip-tools && pip-compile requirements.in
+
+# Install packages defined in requirements.txt
+pip_install: create_venv
+	. .venv/bin/activate && pip install -r requirements.txt
